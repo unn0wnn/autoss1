@@ -1,6 +1,6 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
  
-local PhantomForcesWindow = Library:NewWindow("Rass × 4shvord")
+local PhantomForcesWindow = Library:NewWindow("UGC FAST")
  
 local KillingCheats = phantomforceswindow:newsection("Teleport")
  
@@ -10,4 +10,10 @@ end)
 
 KillingCheats:CreateButton("Wins", function()
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(2.78631067, 70.4442291, -188.432281, -0.997410953, -4.1522167e-08, 0.0719127506, -3.94606339e-08, 1, 3.00878611e-08, -0.0719127506, 2.71722396e-08, -0.997410953))
+end)
+
+local KillingCheats= PhantomForcesWindow:NewSection("Discord Server")
+
+KillingCheats:CreateButton("Channels", function()
+setclipboard("https://discord.com/invite/3RykUDCw")
 end)
