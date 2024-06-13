@@ -1,0 +1,13 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+ 
+local PhantomForcesWindow = Library:NewWindow("Rass × 4shvord")
+ 
+local KillingCheats = phantomforceswindow:newsection("Teleport")
+ 
+KillingCheats:CreateButton("Auto Position Difficulty 3", function()
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(472.540863, 203.209839, 9387.10449, 0.709210753, -7.22596454e-08, -0.704996526, -1.03426938e-08, 1, -1.1290097e-07, 0.704996526, 8.7362146e-08, 0.709210753))
+end)
+
+KillingCheats:CreateButton("Wins", function()
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(2.78631067, 70.4442291, -188.432281, -0.997410953, -4.1522167e-08, 0.0719127506, -3.94606339e-08, 1, 3.00878611e-08, -0.0719127506, 2.71722396e-08, -0.997410953))
+end)
